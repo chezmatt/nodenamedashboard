@@ -13,11 +13,11 @@
         <% for(var person in people){ %>
             First:  <strong><%= people[person].fname %>  </strong>
             Last:  <strong> <%= people[person].lname %>  </strong>
-            <a href="/<%= people[person]._id %>/delete/">Delete</a> | <a href="/<%= people[person]._id %>/edit/">Edit</a>
+            | <a href="/<%= people[person]._id %>/delete/">Delete</a> | <a href="/<%= people[person]._id %>/edit/">Edit</a> |
             <br>
             -------
             <br>
         <% } %>
-
+    <a href="/">| Go Back |</a>
     </body>
 </html>
